@@ -1,9 +1,30 @@
-.Product{
+.h2{ 
+    text-align: center;
+    background-color: #e0c367;
+    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border: 1px solid black;
     margin-bottom: 8px;
     padding: 0 8px 0 8px;
     border-radius: 10px;
-    width: 700px;
+    width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5px;
+    padding: 5px;
+    
+    
 }

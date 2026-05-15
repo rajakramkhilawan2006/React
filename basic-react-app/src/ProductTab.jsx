@@ -1,15 +1,19 @@
 import Product from "./Product.jsx";
+import "./Product.css";
 
 function ProductTab() {
-    let options = ["hi-tech","durable","fast"];
-   // let options2 = {a:"high-tech",b:"durable",c:"fast"}; 
+    
+    return (
+        <>
+        <h2 style={{textAlign:"center",}}>Blockbuster deals | Shop Now</h2>
+        <div className="container">
+            
+    <Product title="Logitech MX Master" idx={0} />
+    <Product title="Apple Pencil (2nd Gen)" idx={1} />
+    <Product title="Zebronics Zeb-transformer" idx={2} />
+    <Product title="Petronics Toad 23" idx={3} />
 
-return (
-    <>
-<Product title="phone" price={30000} features={options}/>
-<Product title="laptop" price={40000}/>
-<Product title="pen" price={1}/>
-</>
-);
+        </div></>
+    );
 }
 export default ProductTab;

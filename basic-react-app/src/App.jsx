@@ -1,18 +1,11 @@
 import ProductTab from "./ProductTab.jsx";
-
-import MsgBox from "./MsgBox";
+import Button from "./Button.jsx";
 
 
 function App() {
   return (
     <>
-    <MsgBox userName="shradha" textColor="yellow"/>
-    <MsgBox userName="apnacollege" textColor="blue"/>
-    <MsgBox userName="ram Rajak" textColor="green"/>
-    
-      
-
-      <ProductTab />
+    <ProductTab />
     </>
   );
 }
