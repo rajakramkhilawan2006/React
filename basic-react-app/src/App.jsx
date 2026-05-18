@@ -1,11 +1,11 @@
-import ProductTab from "./ProductTab.jsx";
-import Button from "./Button.jsx";
-
-
+//import ProductTab from "./ProductTab.jsx";//
+import "./App.css";
+import LudoBoard from "./LudoBoard";
 function App() {
   return (
     <>
-    <ProductTab />
+    <LudoBoard/>
+    
     </>
   );
 }
